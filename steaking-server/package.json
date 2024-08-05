@@ -1,0 +1,25 @@
+{
+    "name": "steaking-server",
+    "author": {
+        "name": "mgnfy-view",
+        "email": "sahilgujrati12@gmail.com"
+    },
+    "main": "src/main.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon src/main.js",
+        "format": "prettier . --write",
+        "lint": "eslint .",
+        "precommit": "pnpm run format && git add ."
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.8.0",
+        "dotenv": "^16.4.5",
+        "eslint": "^9.8.0",
+        "ethers": "^6.13.2",
+        "globals": "^15.9.0",
+        "mongoose": "^8.5.2",
+        "nodemon": "^3.1.4",
+        "prettier": "^3.3.3"
+    }
+}

@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: MIT
+# pragma version 0.4.0
+
+@external
+def deposit(_assets: uint256, _receiver: address) -> uint256:
+    ...

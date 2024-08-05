@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MIT
+# pragma version 0.4.0
+
+@external
+@payable
+def deposit():
+    ...
+
+@external
+def approve(_user: address, _amount: uint256) -> bool:
+    ...
+    
