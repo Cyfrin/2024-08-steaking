@@ -1,12 +1,5 @@
 # Steaking
 
-<!-- <br/>
-<p align="center">
-<img src="./logo.png" width="500" alt="project-name">
-</p>
-<br/> --> 
-
-
 # Contest Details
 
 ### Prize Pool
