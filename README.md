@@ -16,6 +16,8 @@
 - nSLOC: 177
 - Complexity Score: 🤷
 
+[//]: # (contest-details-open)
+
 ## About the Project
 
 Steak is a yield farming protocol in its pre-launch phase. It boasts an attractive APY, various vault management strategies, and a strong and active community. Being in the pre-launch phase, Steak wants to bootstrap liquidity for its ERC4626 WETH vault and reward early adopters. For this, Steak has launched a points campaign where users can stake their ETH and earn points, which will allow users to be eligible for the $STEAK token airdrop in the future.
@@ -28,6 +30,10 @@ After the 4 week staking period ends, the Steak protocol team will set the addre
 
 1. **Users**: Can stake and unstake raw ETH into the vault. After the staking period ends, users can convert ETH to WETH, and deposit it into the WETH vault.
 2. **Steak protocol team multisig**: The multisig is the owner of the `Steaking` contract, and is responsible for setting the vault address after the staking period ends.
+
+[//]: # (contest-details-close)
+
+[//]: # (scope-open)
 
 ## Scope (contracts)
 
@@ -52,6 +58,10 @@ src
 ## Compatibilities
 
 The `Steaking` contract is to be deployed on Ethereum mainnet only.
+
+[//]: # (scope-close)
+
+[//]: # (getting-started-open)
 
 ## Setup
 
@@ -97,6 +107,12 @@ Continue by filling in the values in `.env.example`, and renaming the file to `.
 pnpm install
 ```
 
+[//]: # (getting-started-close)
+
+[//]: # (known-issues-open)
+
 ## Known Issues
 
 The protocol has not been audited before, and there are no currently known issues.
+
+[//]: # (known-issues-close)
